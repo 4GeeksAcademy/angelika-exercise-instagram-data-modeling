@@ -1,8 +1,8 @@
 import os
 import sys
-from sqlalchemy import Column, ForeignKey, Integer, String
-from sqlalchemy.orm import relationship, declarative_base
-from sqlalchemy import create_engine
+from sqlalchemy import Column, ForeignKey, Integer, String, DateTime
+from sqlalchemy.orm import relationship
+from sqlalchemy.ext.declarative import declarative_base
 from eralchemy2 import render_er
 
 Base = declarative_base()
